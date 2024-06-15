@@ -1,7 +1,7 @@
 import random
 import string
 
-def generate_password(length=26):
+def passgen(length=26):
     lower = string.ascii_lowercase
     upper = string.ascii_uppercase
     digits = string.digits
@@ -11,4 +11,4 @@ def generate_password(length=26):
     
     return password
 
-print("Generated password:", generate_password())
+print("Generated password:", passgen())
